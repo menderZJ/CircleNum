@@ -1,0 +1,433 @@
+/**
+CirlcleNum.css
+author: menderZJ
+Repository URL:https://github.com/menderZJ/CircleNum
+License: Under the MIT License
+**/
+
+@font-face {
+    font-family: circlenum;
+    src: url(Fonts/CircleNum.woff) format("woff"), url(Fonts/CircleNum.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cnum,
+[class*=" cnum-"],
+[class^=cnum-] {
+    font-family: circlenum !important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: baseline;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.cnum-0:before {
+    content: "\F6A0"
+}
+
+.cnum-1:before {
+    content: "\F6A1"
+}
+
+.cnum-2:before {
+    content: "\F6A2"
+}
+
+.cnum-3:before {
+    content: "\F6A3"
+}
+
+.cnum-4:before {
+    content: "\F6A4"
+}
+
+.cnum-5:before {
+    content: "\F6A5"
+}
+
+.cnum-6:before {
+    content: "\F6A6"
+}
+
+.cnum-7:before {
+    content: "\F6A7"
+}
+
+.cnum-8:before {
+    content: "\F6A8"
+}
+
+.cnum-9:before {
+    content: "\F6A9"
+}
+
+.cnum-10:before {
+    content: "\F6AA"
+}
+
+.cnum-11:before {
+    content: "\F6AB"
+}
+
+.cnum-12:before {
+    content: "\F6AC"
+}
+
+.cnum-13:before {
+    content: "\F6AD"
+}
+
+.cnum-14:before {
+    content: "\F6AE"
+}
+
+.cnum-15:before {
+    content: "\F6AF"
+}
+
+.cnum-16:before {
+    content: "\F6B0"
+}
+
+.cnum-17:before {
+    content: "\F6B1"
+}
+
+.cnum-18:before {
+    content: "\F6B2"
+}
+
+.cnum-19:before {
+    content: "\F6B3"
+}
+
+.cnum-20:before {
+    content: "\F6B4"
+}
+
+.cnum-21:before {
+    content: "\F6B5"
+}
+
+.cnum-22:before {
+    content: "\F6B6"
+}
+
+.cnum-23:before {
+    content: "\F6B7"
+}
+
+.cnum-24:before {
+    content: "\F6B8"
+}
+
+.cnum-25:before {
+    content: "\F6B9"
+}
+
+.cnum-26:before {
+    content: "\F6BA"
+}
+
+.cnum-27:before {
+    content: "\F6BB"
+}
+
+.cnum-28:before {
+    content: "\F6BC"
+}
+
+.cnum-29:before {
+    content: "\F6BD"
+}
+
+.cnum-30:before {
+    content: "\F6BE"
+}
+
+.cnum-31:before {
+    content: "\F6BF"
+}
+
+.cnum-32:before {
+    content: "\F6C0"
+}
+
+.cnum-33:before {
+    content: "\F6C1"
+}
+
+.cnum-34:before {
+    content: "\F6C2"
+}
+
+.cnum-35:before {
+    content: "\F6C3"
+}
+
+.cnum-36:before {
+    content: "\F6C4"
+}
+
+.cnum-37:before {
+    content: "\F6C5"
+}
+
+.cnum-38:before {
+    content: "\F6C6"
+}
+
+.cnum-39:before {
+    content: "\F6C7"
+}
+
+.cnum-40:before {
+    content: "\F6C8"
+}
+
+.cnum-41:before {
+    content: "\F6C9"
+}
+
+.cnum-42:before {
+    content: "\F6CA"
+}
+
+.cnum-43:before {
+    content: "\F6CB"
+}
+
+.cnum-44:before {
+    content: "\F6CC"
+}
+
+.cnum-45:before {
+    content: "\F6CD"
+}
+
+.cnum-46:before {
+    content: "\F6CE"
+}
+
+.cnum-47:before {
+    content: "\F6CF"
+}
+
+.cnum-48:before {
+    content: "\F6D0"
+}
+
+.cnum-49:before {
+    content: "\F6D1"
+}
+
+.cnum-50:before {
+    content: "\F6D2"
+}
+
+.cnum-51:before {
+    content: "\F6D3"
+}
+
+.cnum-52:before {
+    content: "\F6D4"
+}
+
+.cnum-53:before {
+    content: "\F6D5"
+}
+
+.cnum-54:before {
+    content: "\F6D6"
+}
+
+.cnum-55:before {
+    content: "\F6D7"
+}
+
+.cnum-56:before {
+    content: "\F6D8"
+}
+
+.cnum-57:before {
+    content: "\F6D9"
+}
+
+.cnum-58:before {
+    content: "\F6DA"
+}
+
+.cnum-59:before {
+    content: "\F6DB"
+}
+
+.cnum-60:before {
+    content: "\F6DC"
+}
+
+.cnum-61:before {
+    content: "\F6DD"
+}
+
+.cnum-62:before {
+    content: "\F6DE"
+}
+
+.cnum-63:before {
+    content: "\F6DF"
+}
+
+.cnum-64:before {
+    content: "\F6E0"
+}
+
+.cnum-65:before {
+    content: "\F6E1"
+}
+
+.cnum-66:before {
+    content: "\F6E2"
+}
+
+.cnum-67:before {
+    content: "\F6E3"
+}
+
+.cnum-68:before {
+    content: "\F6E4"
+}
+
+.cnum-69:before {
+    content: "\F6E5"
+}
+
+.cnum-70:before {
+    content: "\F6E6"
+}
+
+.cnum-71:before {
+    content: "\F6E7"
+}
+
+.cnum-72:before {
+    content: "\F6E8"
+}
+
+.cnum-73:before {
+    content: "\F6E9"
+}
+
+.cnum-74:before {
+    content: "\F6EA"
+}
+
+.cnum-75:before {
+    content: "\F6EB"
+}
+
+.cnum-76:before {
+    content: "\F6EC"
+}
+
+.cnum-77:before {
+    content: "\F6ED"
+}
+
+.cnum-78:before {
+    content: "\F6EE"
+}
+
+.cnum-79:before {
+    content: "\F6EF"
+}
+
+.cnum-80:before {
+    content: "\F6F0"
+}
+
+.cnum-81:before {
+    content: "\F6F1"
+}
+
+.cnum-82:before {
+    content: "\F6F2"
+}
+
+.cnum-83:before {
+    content: "\F6F3"
+}
+
+.cnum-84:before {
+    content: "\F6F4"
+}
+
+.cnum-85:before {
+    content: "\F6F5"
+}
+
+.cnum-86:before {
+    content: "\F6F6"
+}
+
+.cnum-87:before {
+    content: "\F6F7"
+}
+
+.cnum-88:before {
+    content: "\F6F8"
+}
+
+.cnum-89:before {
+    content: "\F6F9"
+}
+
+.cnum-90:before {
+    content: "\F6FA"
+}
+
+.cnum-91:before {
+    content: "\F6FB"
+}
+
+.cnum-92:before {
+    content: "\F6FC"
+}
+
+.cnum-93:before {
+    content: "\F6FD"
+}
+
+.cnum-94:before {
+    content: "\F6FE"
+}
+
+.cnum-95:before {
+    content: "\F6FF"
+}
+
+.cnum-96:before {
+    content: "\F700"
+}
+
+.cnum-97:before {
+    content: "\F701"
+}
+
+.cnum-98:before {
+    content: "\F702"
+}
+
+.cnum-99:before {
+    content: "\F703"
+}
+
+.cnum-100:before {
+    content: "\F704"
+}

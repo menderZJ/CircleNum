@@ -1,0 +1,83 @@
+<!DOCTYPE html []>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="MarkdownViewer++" />
+    <title>README.md</title>
+    <style type="text/css">
+        /* Avoid page breaks inside the most common attributes, especially for exports (i.e. PDF) */
+        
+        td,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        p,
+        ul,
+        ol,
+        li {
+            page-break-inside: avoid;
+        }
+    </style>
+
+    <link href="CirlcleNum.css" rel="stylesheet" />
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-size: 14px;
+        }
+        
+        i {
+            font-size: 36px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="circlenum">CircleNum</h1>
+    <p>It's a fonts library for number surround by a circle.</p>
+    <h1 id="how-to-use">How to use</h1>
+    <h3 id="step-1-put-the-fonts-folder-and-cirlclenum.css-under-you-site-folder">step 1: put the Fonts folder and CirlcleNum.css under you site folder</h3>
+    <h3 id="step-2-load-the-cirlclenum.css">step 2: Load the CirlcleNum.css</h3>
+    <pre>
+      <code>&lt;link href="CirlcleNum.css" rel="stylesheet" /&gt;
+</code>
+    </pre>
+    <h3 id="step-3-use-circle-number-like-this">step 3: Use Circle number like this</h3>
+    <pre>
+      <code>&lt;i class="cnum-0"&gt;&lt;/i&gt;
+</code>
+    </pre>
+    <p>Tips: In propertype "class",the format like this</p>
+    <pre>
+      <code>    cnum-Number
+</code>
+    </pre>
+    <h3 id="demo">Demo</h3>
+    <p>
+        <script>
+            for (var i = 0; i <= 100; i++) {
+                if (i % 10 == 0) {
+                    document.writeln("<br />")
+
+                }
+                document.writeln("<i class=\"cnum-" + i + "\"></i>")
+            }
+        </script>
+    </p>
+    <p>
+        <a href="https://github.com/menderZJ/CircleNum/blob/main/index_zh.html">中文</a>
+    </p>
+
+    <p>
+        <a href="https://github.com/menderZJ/CircleNum/blob/main/README_zh.md">中文说明</a>
+    </p>
+    <p>
+        <a href="https://github.com/menderZJ/CircleNum/blob/main/README.md">English ReadMe file</a>
+    </p>
+</body>
+
+</html>

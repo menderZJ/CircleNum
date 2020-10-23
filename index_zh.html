@@ -1,0 +1,79 @@
+<!DOCTYPE html []>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="MarkdownViewer++" />
+    <title>README_zh.md</title>
+    <style type="text/css">
+        /* Avoid page breaks inside the most common attributes, especially for exports (i.e. PDF) */
+        
+        td,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        p,
+        ul,
+        ol,
+        li {
+            page-break-inside: avoid;
+        }
+    </style>
+    <link href="CirlcleNum.css" rel="stylesheet" />
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-size: 14px;
+        }
+        
+        i {
+            font-size: 36px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="circlenum">CircleNum</h1>
+    <p>一个带圈数字的字体库，支持0到100</p>
+    <h1 id="section">如何使用</h1>
+    <h3 id="step-1">step 1: 将本项目文件放到你的站点下</h3>
+    <h3 id="step-2-cirlclenum.css">step 2: 载入 CirlcleNum.css文件。</h3>
+    <pre>
+      <code>&lt;link href="CirlcleNum.css" rel="stylesheet" /&gt;
+</code>
+    </pre>
+    <h3 id="step-3">step 3: 可像下面一样使用带圈的数字了</h3>
+    <pre>
+      <code>&lt;i class="cnum-0"&gt;&lt;/i&gt;
+</code>
+    </pre>
+    <p>提示: 在html标签的class属性中使用如下格式即可</p>
+    <pre>
+      <code>    cnum-需要带圈的数字
+	如：cnum-0、cnum-1、cnum-2、cnum-3等
+</code>
+    </pre>
+    <h3 id="demo">Demo</h3>
+    <script>
+        for (var i = 0; i <= 100; i++) {
+            if (i % 10 == 0) {
+                document.writeln("<br />")
+
+            }
+            document.writeln("<i class=\"cnum-" + i + "\"></i>")
+        }
+    </script>
+
+    <p>请查看项目下的Demo.html文件</p>
+    <p>
+        <a href="https://github.com/menderZJ/CircleNum/blob/main/README_zh.md">中文说明</a>
+    </p>
+    <p>
+        <a href="https://github.com/menderZJ/CircleNum/blob/main/README.md">English ReadMe file</a>
+    </p>
+</body>
+
+</html>

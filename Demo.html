@@ -1,0 +1,27 @@
+<html>
+<link href="CirlcleNum.css" rel="stylesheet" />
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-size: 14px;
+    }
+    
+    i {
+        font-size: 36px;
+    }
+</style>
+
+<body>
+    <script>
+        for (var i = 0; i <= 100; i++) {
+            if (i % 10 == 0) {
+                document.writeln("<br />")
+
+            }
+            document.writeln("<i class=\"cnum-" + i + "\"></i>")
+        }
+    </script>
+</body>
+
+</html>
