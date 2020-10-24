@@ -21,6 +21,6 @@ Tips: In propertype "class",the format like this
 see Demo.html
 
 
-[涓枃璇存槑](https://github.com/menderZJ/CircleNum/blob/main/README_zh.md)
+[中文说明](https://github.com/menderZJ/CircleNum/blob/main/README_zh.md)
 
 [English ReadMe file](https://github.com/menderZJ/CircleNum/blob/main/README.md)
